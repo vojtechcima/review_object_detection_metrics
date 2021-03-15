@@ -2,7 +2,7 @@ from typing import Any
 
 import numpy as np
 
-from src.utils.general_utils import convert_box_xywh2xyxy
+from odm.utils.general_utils import convert_box_xywh2xyxy
 
 
 class Tube(object):

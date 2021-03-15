@@ -314,7 +314,7 @@ See [example annotation](https://github.com/rafaelpadilla/review_object_detectio
 ##### Running  
 
 ```python
-from src.evaluators.tube_evaluator import TubeEvaluator
+from odm.evaluators.tube_evaluator import TubeEvaluator
 
 tube_evaluator = TubeEvaluator(annot_filepath, preds_filepath)
 res, mAP = tube_evaluator.evaluate(thr=0.5)

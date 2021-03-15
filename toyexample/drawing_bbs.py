@@ -2,11 +2,11 @@
 import os
 
 import cv2
-import src.evaluators.pascal_voc_evaluator as pascal_voc_evaluator
-import src.utils.converter as converter
-import src.utils.general_utils as general_utils
-from src.bounding_box import BoundingBox
-from src.utils.enumerators import BBFormat, BBType, CoordinatesType
+import odm.evaluators.pascal_voc_evaluator as pascal_voc_evaluator
+import odm.utils.converter as converter
+import odm.utils.general_utils as general_utils
+from odm.bounding_box import BoundingBox
+from odm.utils.enumerators import BBFormat, BBType, CoordinatesType
 
 dir_imgs = 'toyexample/images'
 dir_gts = 'toyexample/gts_vocpascal_format'

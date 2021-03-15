@@ -1,6 +1,6 @@
 import os
 
-from src.evaluators.tube_evaluator import TubeEvaluator
+from odm.evaluators.tube_evaluator import TubeEvaluator
 
 
 # TODO: More tests!!!

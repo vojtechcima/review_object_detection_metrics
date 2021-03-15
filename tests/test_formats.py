@@ -1,6 +1,6 @@
-import src.utils.general_utils as utils
-import src.utils.validations as validations
-from src.utils.enumerators import BBType, CoordinatesType, FileFormat
+import odm.utils.general_utils as utils
+import odm.utils.validations as validations
+from odm.utils.enumerators import BBType, CoordinatesType, FileFormat
 
 
 def test_validation_formats():
